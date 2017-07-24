@@ -1,0 +1,82 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #64706c;
+
+    background-image: linear-gradient(0deg, #8884fa 0%, #8fd3f4 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1.4em;
+}
+
+#titlebar {
+    color: #fdfcfb;
+    display: block;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#container {
+    width: 800px;
+    margin: 50px auto;
+    width: 50%;
+}
+
+#quoteContainer {
+    width: 75%;
+    background-color: #fdfcfb;
+    padding: 40px;
+    padding-bottom: 60px;
+    margin-top: -20px;
+    margin: 30px auto;
+    text-align: center;
+    min-height: 80px;
+    border-radius: 35px;
+}
+
+#buttonContainer {
+    width: 100%;
+    text-align: center;
+}
+
+#quoteButton {
+    width: 250px;
+    margin-top: 10px;
+    color: #fdfcfb;
+    font-family: inherit;
+    font-size: .8em;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 25px;
+    transition: background-color .7s, color .5s;
+    display: inline-block;
+    border: 1px solid #fdfcfb;
+}
+
+#quoteButton:hover {
+    cursor: pointer;
+    background-color: #fdfcfb;
+    color: #64706c;
+}
+
+#quoteButton:active {
+    cursor: pointer;
+}
+
+#quoteGenius {
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 1px;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media screen and(max-width:760px) {
+    #quoteButton,
+    #addNew {
+        display: block;
+    }
+}

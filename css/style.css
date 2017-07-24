@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'glacial_indifferencebold';
+    src: url('glacialindifference-bold-webfont.woff2') format('woff2'),
+         url('glacialindifference-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'glacial_indifferenceregular';
+    src: url('glacialindifference-regular-webfont.woff2') format('woff2'),
+         url('glacialindifference-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'glacial_indifferenceregular', sans-serif;
+    color: #090301; 
+    background: #eb571e;
+    font-size: 1.4em;
+}
+
+#titlebar {
+    /* color: #f7f3ed; base white */
+    color: #f8eddb;
+    display: block;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#containerQuote {
+    width: 800px;
+    margin: 50px auto;
+    width: 50%;
+}
+
+#quoteContainer {
+    width: 80%;
+    background-color: #f8eddb;
+    padding: 40px;
+    padding-bottom: 60px;
+    margin-top: -20px;
+    margin: 30px auto;
+    text-align: center;
+    min-height: 80px;
+    border:  2px solid #090301;
+    outline: 8px solid #f8eddb;
+}
+
+#buttonContainer {
+    width: 100%;
+    text-align: center;
+}
+
+#quoteButton {
+    width: 250px;
+    margin-top: 10px;
+    color: #090301;
+    font-size: .6em;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color .7s,  color .5s, outline .7s;
+    display: inline-block;
+    border: 2px solid #090301;
+     outline: 5px solid #eb571e;
+        font-family: 'Architects Daughter', cursive;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+#quoteButton:hover {
+    cursor: pointer;
+    background-color: #f8eddb;
+    color: #090301;
+         outline: 5px solid #f8eddb;
+}
+
+#quoteButton:active {
+    cursor: pointer;
+}
+
+#quoteGenius {
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 1px;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media screen and(max-width:760px) {
+    #quoteButton,
+    #addNew {
+        display: block;
+    }
+}
