@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'glacial_indifferencebold';
-    src: url('glacialindifference-bold-webfont.woff2') format('woff2'),
-         url('glacialindifference-bold-webfont.woff') format('woff');
+    src: url('glacialindifference-bold-webfont.woff2') format('woff2'), url('glacialindifference-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'glacial_indifferenceregular';
-    src: url('glacialindifference-regular-webfont.woff2') format('woff2'),
-         url('glacialindifference-regular-webfont.woff') format('woff');
+    src: url('glacialindifference-regular-webfont.woff2') format('woff2'), url('glacialindifference-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+html {
+    background: #eb571e;
+    background-image: url(../hip-square.png);
+    background-repeat: repeat;
+    color: #090301;
 }
 
 body {
     font-family: 'glacial_indifferenceregular', sans-serif;
-    color: #090301; 
-    background: #eb571e;
     font-size: 1.4em;
 }
 
@@ -47,7 +47,7 @@ body {
     margin: 30px auto;
     text-align: center;
     min-height: 80px;
-    border:  2px solid #090301;
+    border: 2px solid #090301;
     outline: 8px solid #f8eddb;
 }
 
@@ -64,11 +64,11 @@ body {
     padding: 15px;
     text-decoration: none;
     text-align: center;
-    transition: background-color .7s,  color .5s, outline .7s;
+    transition: background-color .7s, color .5s, outline .7s;
     display: inline-block;
     border: 2px solid #090301;
-     outline: 5px solid #eb571e;
-        font-family: 'Architects Daughter', cursive;
+    outline: 5px solid rgba(0,0,0,0);
+    font-family: 'Architects Daughter', cursive;
     letter-spacing: 1px;
     font-weight: 600;
 }
@@ -77,7 +77,7 @@ body {
     cursor: pointer;
     background-color: #f8eddb;
     color: #090301;
-         outline: 5px solid #f8eddb;
+    outline: 5px solid #f8eddb;
 }
 
 #quoteButton:active {
@@ -90,7 +90,6 @@ body {
     font-family: 'Architects Daughter', cursive;
     letter-spacing: 1px;
 }
-
 
 
 /*MEDIA QUERIES*/
